@@ -1,0 +1,25 @@
+.main{
+    background-color:black;
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.main h3{
+    background-image:linear-gradient(to right, #283c86 , #45a247 );
+    background-clip: text;
+    color: transparent;
+    background-size: 400% 400%;
+    animation: animation 5s linear infinite ;
+}
+@keyframes animation {
+    0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
