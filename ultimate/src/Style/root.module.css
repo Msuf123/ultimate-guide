@@ -1,0 +1,13 @@
+.main{
+    width: 95%;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 2px;
+    margin: 2px auto;
+}
+.outer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}

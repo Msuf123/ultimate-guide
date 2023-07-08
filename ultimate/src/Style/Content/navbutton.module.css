@@ -1,0 +1,15 @@
+.main{
+   
+    display: flex;
+    justify-content: space-between;
+}
+.main button{
+ border: 5px solid rgba(0, 0, 0, 0.644);
+ ;
+ width: 15%;
+ margin: 5px;
+ border-radius: 5px;
+ padding: 5px 15px;
+ background-color:rgb(252, 162, 28);
+ font-size: 0.99rem;
+}
